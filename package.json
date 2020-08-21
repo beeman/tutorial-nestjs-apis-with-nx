@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "nx serve api",
     "nx": "nx",
-    "start": "nx serve",
-    "build": "nx build",
+    "start": "node dist/apps/api/main.js",
+    "build": "nx build api --prod",
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
     "e2e": "nx e2e",
