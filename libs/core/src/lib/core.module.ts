@@ -14,6 +14,7 @@ import { CoreResolver } from './core.resolver'
     }),
     GraphQLModule.forRoot({
       autoSchemaFile: true,
+      playground: true,
     }),
   ],
   controllers: [],
